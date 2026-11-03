@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Source datasets: do not commit student-level data
+03_비교과_프로그램.csv
+04_비교과_이수자.csv
+*.csv
+
+# Local outputs and exports
+*.xlsx
+*.parquet
+*.pkl
+.DS_Store
